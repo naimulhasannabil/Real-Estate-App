@@ -1,0 +1,221 @@
+export const properties = [
+  {
+    id: 1,
+    title: "Luxury Penthouse Downtown",
+    price: 1250000,
+    type: "Condo",
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 2400,
+    address: "456 Downtown Plaza, Metropolitan City",
+    description: "Stunning penthouse with panoramic city views, premium finishes, and rooftop terrace. Perfect for executive living.",
+    images: [
+      "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg",
+      "https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg",
+      "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg"
+    ],
+    featured: true,
+    agent: "Sarah Johnson",
+    agentId: 1,
+    yearBuilt: 2020,
+    parking: 2,
+    amenities: ["Pool", "Gym", "Concierge", "Rooftop Deck"],
+    status: "For Sale"
+  },
+  {
+    id: 2,
+    title: "Modern Family Home",
+    price: 875000,
+    type: "House",
+    bedrooms: 4,
+    bathrooms: 3,
+    sqft: 3200,
+    address: "789 Maple Street, Suburban Heights",
+    description: "Beautiful modern home with open floor plan, gourmet kitchen, and private backyard. Perfect for growing families.",
+    images: [
+      "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg",
+      "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg",
+      "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg"
+    ],
+    featured: true,
+    agent: "Michael Chen",
+    agentId: 2,
+    yearBuilt: 2018,
+    parking: 2,
+    amenities: ["Garden", "Garage", "Fireplace", "Walk-in Closets"],
+    status: "For Sale"
+  },
+  {
+    id: 3,
+    title: "Cozy Urban Loft",
+    price: 425000,
+    type: "Loft",
+    bedrooms: 1,
+    bathrooms: 1,
+    sqft: 900,
+    address: "321 Arts District, Creative Quarter",
+    description: "Trendy loft in the heart of the arts district. High ceilings, exposed brick, and modern amenities.",
+    images: [
+      "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg",
+      "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg",
+      "https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg"
+    ],
+    featured: false,
+    agent: "Emily Rodriguez",
+    agentId: 3,
+    yearBuilt: 2019,
+    parking: 1,
+    amenities: ["Exposed Brick", "High Ceilings", "Hardwood Floors"],
+    status: "For Sale"
+  },
+  {
+    id: 4,
+    title: "Waterfront Villa",
+    price: 2100000,
+    type: "Villa",
+    bedrooms: 5,
+    bathrooms: 4,
+    sqft: 4800,
+    address: "555 Oceanview Drive, Coastal Paradise",
+    description: "Magnificent waterfront villa with private beach access, infinity pool, and breathtaking ocean views.",
+    images: [
+      "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg",
+      "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg",
+      "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg"
+    ],
+    featured: true,
+    agent: "David Thompson",
+    agentId: 4,
+    yearBuilt: 2021,
+    parking: 3,
+    amenities: ["Private Beach", "Pool", "Wine Cellar", "Home Theater"],
+    status: "For Sale"
+  },
+  {
+    id: 5,
+    title: "Charming Cottage",
+    price: 325000,
+    type: "House",
+    bedrooms: 2,
+    bathrooms: 2,
+    sqft: 1400,
+    address: "123 Garden Lane, Peaceful Village",
+    description: "Quaint cottage with beautiful garden, updated kitchen, and cozy fireplace. Perfect starter home.",
+    images: [
+      "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg",
+      "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg",
+      "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg"
+    ],
+    featured: false,
+    agent: "Lisa Park",
+    agentId: 5,
+    yearBuilt: 1995,
+    parking: 1,
+    amenities: ["Garden", "Fireplace", "Updated Kitchen"],
+    status: "For Sale"
+  },
+  {
+    id: 6,
+    title: "Executive Townhouse",
+    price: 675000,
+    type: "Townhouse",
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 2100,
+    address: "888 Executive Row, Business District",
+    description: "Elegant townhouse in prestigious location. Modern finishes, private patio, and attached garage.",
+    images: [
+      "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg",
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg"
+    ],
+    featured: false,
+    agent: "Robert Wilson",
+    agentId: 6,
+    yearBuilt: 2017,
+    parking: 2,
+    amenities: ["Patio", "Garage", "Modern Kitchen", "Hardwood Floors"],
+    status: "For Sale"
+  }
+];
+
+export const agents = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    title: "Senior Real Estate Agent",
+    experience: "8 years",
+    specialties: ["Luxury Properties", "Downtown Condos", "Investment Properties"],
+    phone: "(555) 123-4567",
+    email: "sarah@productiverealestate.com",
+    image: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg",
+    bio: "Sarah specializes in luxury properties and has helped over 200 clients find their dream homes. She's known for her attention to detail and exceptional customer service.",
+    sales: 45,
+    rating: 4.9
+  },
+  {
+    id: 2,
+    name: "Michael Chen",
+    title: "Family Home Specialist",
+    experience: "6 years",
+    specialties: ["Family Homes", "Suburban Properties", "First-Time Buyers"],
+    phone: "(555) 234-5678",
+    email: "michael@productiverealestate.com",
+    image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+    bio: "Michael has a passion for helping families find the perfect home. His patient approach and market knowledge make him ideal for first-time buyers.",
+    sales: 38,
+    rating: 4.8
+  },
+  {
+    id: 3,
+    name: "Emily Rodriguez",
+    title: "Urban Properties Expert",
+    experience: "5 years",
+    specialties: ["Urban Lofts", "Creative Spaces", "Young Professionals"],
+    phone: "(555) 345-6789",
+    email: "emily@productiverealestate.com",
+    image: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg",
+    bio: "Emily understands the urban lifestyle and helps young professionals find stylish, convenient properties in the city's best neighborhoods.",
+    sales: 32,
+    rating: 4.7
+  },
+  {
+    id: 4,
+    name: "David Thompson",
+    title: "Luxury Property Consultant",
+    experience: "12 years",
+    specialties: ["Waterfront Properties", "Luxury Estates", "High-End Investments"],
+    phone: "(555) 456-7890",
+    email: "david@productiverealestate.com",
+    image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg",
+    bio: "With over a decade of experience, David is our go-to expert for luxury and waterfront properties. He has closed over $50M in luxury sales.",
+    sales: 62,
+    rating: 5.0
+  },
+  {
+    id: 5,
+    name: "Lisa Park",
+    title: "Residential Sales Agent",
+    experience: "4 years",
+    specialties: ["Starter Homes", "Affordable Housing", "Neighborhood Expert"],
+    phone: "(555) 567-8901",
+    email: "lisa@productiverealestate.com",
+    image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+    bio: "Lisa is dedicated to making homeownership accessible. She specializes in starter homes and knows every neighborhood like the back of her hand.",
+    sales: 28,
+    rating: 4.6
+  },
+  {
+    id: 6,
+    name: "Robert Wilson",
+    title: "Commercial & Residential Agent",
+    experience: "10 years",
+    specialties: ["Townhouses", "Commercial Properties", "Investment Analysis"],
+    phone: "(555) 678-9012",
+    email: "robert@productiverealestate.com",
+    image: "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg",
+    bio: "Robert brings both commercial and residential expertise to every transaction. His analytical approach helps clients make informed investment decisions.",
+    sales: 55,
+    rating: 4.9
+  }
+];
