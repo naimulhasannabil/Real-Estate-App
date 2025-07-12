@@ -2,9 +2,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
-import AgentsPage from './pages/AgentsPage'
+import PropertiesPage from './pages/PropertiesPage'
 import PropertyDetailsPage from './pages/PropertyDetailsPage'
-
+import AgentsPage from './pages/AgentsPage'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
          <main>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/properties' element={<PropertiesPage />} />
             <Route path="/property/:id" element={<PropertyDetailsPage />} />
             <Route path='agents' element={<AgentsPage />} />
           </Routes>
