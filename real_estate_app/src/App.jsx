@@ -3,6 +3,7 @@ import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
 import AgentsPage from './pages/AgentsPage'
+import PropertyDetailsPage from './pages/PropertyDetailsPage'
 
 
 
@@ -16,6 +17,7 @@ function App() {
          <main>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path="/property/:id" element={<PropertyDetailsPage />} />
             <Route path='agents' element={<AgentsPage />} />
           </Routes>
          </main>
