@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
+import AgentsPage from './pages/AgentsPage'
 
 
 
@@ -15,6 +16,7 @@ function App() {
          <main>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='agents' element={<AgentsPage />} />
           </Routes>
          </main>
          <Footer />
@@ -23,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
