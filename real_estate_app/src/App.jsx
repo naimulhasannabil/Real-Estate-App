@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import PropertiesPage from './pages/PropertiesPage'
 import PropertyDetailsPage from './pages/PropertyDetailsPage'
 import AgentsPage from './pages/AgentsPage'
+import ContactPage from './pages/ContactPage'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/properties' element={<PropertiesPage />} />
             <Route path="/property/:id" element={<PropertyDetailsPage />} />
             <Route path='agents' element={<AgentsPage />} />
+            <Route path='/contact' element={<ContactPage />} />
           </Routes>
          </main>
          <Footer />
