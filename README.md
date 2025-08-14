@@ -42,7 +42,7 @@ A modern, responsive real estate web application built with React, Vite, and Tai
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/naimulhasannabil/Real-Estate-App.git]
+   git clone https://github.com/naimulhasannabil/Real-Estate-App.git
    cd real_estate_app
    ```
 
